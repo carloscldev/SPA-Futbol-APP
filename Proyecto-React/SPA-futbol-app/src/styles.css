@@ -1,0 +1,110 @@
+.club-thumb {
+    max-width: 84px;
+    border-radius: 8px;
+}
+
+.torneos-thumb {
+    max-width: 105px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+}
+
+.card-footer {
+    min-height:250px;
+        background: #0F236B;
+        color:white;
+}
+
+.card-body {
+    min-height:125px;
+}
+
+.card-header {
+    background: #fd295a;
+}
+
+
+.imagen-inicio {
+    max-width: 100%;
+    border-radius: 8px;    
+}
+
+.header-liga .header {
+    position: relative;
+    z-index: 9;
+}
+
+.header-liga {
+    background: #fd295a;
+    padding: 30px 0px 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-liga::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -5%;
+    height: 100%;
+    width: 60%;
+    background: #0F236B;
+    transform: skewX(-20deg);
+}
+
+.header-liga .header .top-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-liga .header .top-area .left {
+    max-width: 180px;
+}
+
+.header-left {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;  
+    font-size: 16px;
+}
+
+.header-liga .header .top-area .center::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background: #fd295a;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.header-liga .header .top-area .right {
+    max-width: 180px;
+}
+
+.header-liga .header  {
+    text-align: center;
+}
+
+.header-liga .header .text {
+    color: #eeee;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* CARDS */
+ .card {
+    max-width: 18rem;
+ }
+
+
+.nounderline {
+    text-decoration: none !important     
+    
+}
